@@ -1,0 +1,18 @@
+#include<iostream>
+float n;
+
+int main ()
+{  
+ std::cout << "Ingrese numero"<< std::endl;
+ std::cin >> n; 
+ if (n>=10)
+ {
+  std::cout << "ES MAYOR O IGUAL QUE 10, EL TRIPLE ES: "; std::cout<<3*n;
+ }
+ else
+ {
+  std::cout << "ES MENOR QUE 10, LA CUARTA PARTE ES: " ; std::cout<<n/4;
+ }
+
+ return 0;
+}
